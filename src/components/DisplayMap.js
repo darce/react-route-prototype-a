@@ -79,7 +79,6 @@ const DisplayMap = () => {
             'geometry': {
                 'type': 'LineString',
                 coordinates: spreadCoords([...routeCoords, clickedCoords]),
-
             }
         })
     }
